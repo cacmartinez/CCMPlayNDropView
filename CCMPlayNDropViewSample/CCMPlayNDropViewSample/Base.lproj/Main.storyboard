@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backImage" translatesAutoresizingMaskIntoConstraints="NO" id="f8q-p1-goG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="weq-OM-Oht" customClass="CCMBorderView">
+                                <rect key="frame" x="170" y="265" width="260" height="69"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEf-Yl-CaI">
+                                        <rect key="frame" x="0.0" y="0.0" width="260" height="69"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Show PlayNDropView">
+                                            <color key="titleColor" red="0.14117647059999999" green="0.29803921570000003" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressedShowCCMPlayNDropView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iVL-si-Emf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.87587153263694073" green="0.90353834317590265" blue="0.91354580026455023" alpha="0.93000000000000005" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="uEf-Yl-CaI" secondAttribute="bottom" id="6Ce-2K-nu7"/>
+                                    <constraint firstAttribute="width" constant="242" id="7jh-5H-Biy"/>
+                                    <constraint firstAttribute="height" constant="69" id="9mR-Ws-Bkj"/>
+                                    <constraint firstItem="uEf-Yl-CaI" firstAttribute="top" secondItem="weq-OM-Oht" secondAttribute="top" id="Bs1-Hq-pp2"/>
+                                    <constraint firstItem="uEf-Yl-CaI" firstAttribute="leading" secondItem="weq-OM-Oht" secondAttribute="leading" id="Dle-lB-Y6c"/>
+                                    <constraint firstAttribute="height" constant="197" id="Sss-EI-JFL"/>
+                                    <constraint firstAttribute="trailing" secondItem="uEf-Yl-CaI" secondAttribute="trailing" id="nqP-9p-6NQ"/>
+                                    <constraint firstAttribute="width" constant="260" id="uil-wy-bWY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="7jh-5H-Biy"/>
+                                        <exclude reference="Sss-EI-JFL"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f8q-p1-goG" secondAttribute="bottom" id="2IS-9N-QW3"/>
+                            <constraint firstAttribute="centerX" secondItem="weq-OM-Oht" secondAttribute="centerX" id="471-O4-g4G"/>
+                            <constraint firstItem="f8q-p1-goG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="HmW-T1-pfq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f8q-p1-goG" secondAttribute="trailing" constant="-16" id="My8-RF-XEJ"/>
+                            <constraint firstAttribute="centerY" secondItem="weq-OM-Oht" secondAttribute="centerY" id="Qim-v0-e1K"/>
+                            <constraint firstItem="f8q-p1-goG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="dZM-Cw-CKd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--PlayN Drop View Controller-->
+        <scene sceneID="GD1-cV-hGQ">
+            <objects>
+                <viewController storyboardIdentifier="PlayNDropViewController" id="hsy-GU-yOI" customClass="PlayNDropViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MSU-5p-laG"/>
+                        <viewControllerLayoutGuide type="bottom" id="dlP-T8-Pad"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d4t-eu-ww8" customClass="CCMPlayNDropView">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the PlayNDropView" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0e-Z4-yFT">
+                                <rect key="frame" x="38" y="41" width="225" height="67"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                <color key="textColor" red="0.14117647059999999" green="0.29803921570000003" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Move the view around and play with it" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C08-ZA-tye">
+                                <rect key="frame" x="56" y="123" width="189" height="127"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="21"/>
+                                <color key="textColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dismiss by flicking away or drop it" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlc-ao-ZEM">
+                                <rect key="frame" x="65" y="258" width="171" height="94"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="21"/>
+                                <color key="textColor" red="0.26274509800000001" green="0.75294117650000003" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431372549019602" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="maxAngle">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="delegate" destination="hsy-GU-yOI" id="MOI-Xy-EfF"/>
+                        </connections>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="400"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l64-Cp-CEF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="267"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backImage" width="2149" height="3608"/>
+    </resources>
+</document>

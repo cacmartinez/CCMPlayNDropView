@@ -1,0 +1,5 @@
+#include "Pods-CCMPlayNDropViewSample-MaryPopin.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/MaryPopin" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MaryPopin"
+OTHER_LDFLAGS = ${PODS_CCMPLAYNDROPVIEWSAMPLE_MARYPOPIN_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
