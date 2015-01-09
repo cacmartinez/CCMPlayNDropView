@@ -2,7 +2,7 @@ CCMPlayNDropView
 ===========
 
 [![License APACHE](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/cacmartinez/CCMPlayNDropView/blob/master/LICENSE)
-[![Release](https://img.shields.io/github/release/cacmartinez/CCMPlayNDropView.svg)](https://github.com/Backelite/MaryPopin)
+[![Release](https://img.shields.io/github/release/cacmartinez/CCMPlayNDropView.svg)](https://github.com/cacmartinez/CCMPlayNDropView)
 
 CCMPlayNDropView is an easy to use view that with the help of UIKit dynamics animations it creates an effect similar to that used in the swarm app when dismissing views.
 
