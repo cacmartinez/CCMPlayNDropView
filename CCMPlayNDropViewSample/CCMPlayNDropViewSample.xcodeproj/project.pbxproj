@@ -15,9 +15,8 @@
 		7794C66F1A29544B00F9C300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7794C66E1A29544B00F9C300 /* Images.xcassets */; };
 		7794C6721A29544B00F9C300 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7794C6701A29544B00F9C300 /* LaunchScreen.xib */; };
 		7794C67E1A29544B00F9C300 /* CCMPlayNDropViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794C67D1A29544B00F9C300 /* CCMPlayNDropViewSampleTests.m */; };
-		7794C68A1A29546800F9C300 /* CCMPlayNDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794C6891A29546800F9C300 /* CCMPlayNDropView.m */; };
-		7794C68E1A2A7A0500F9C300 /* CCMBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794C68D1A2A7A0500F9C300 /* CCMBorderView.m */; };
 		7794C6911A2A89AA00F9C300 /* PlayNDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7794C6901A2A89AA00F9C300 /* PlayNDropViewController.m */; };
+		7F6351C6C5E22AF8956E3320 /* libPods-CCMPlayNDropViewSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C13161BBF735C2914D736D /* libPods-CCMPlayNDropViewSampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AF69E996F6F718E0099C9AD /* Pods-CCMPlayNDropViewSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMPlayNDropViewSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCMPlayNDropViewSampleTests/Pods-CCMPlayNDropViewSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		5AC8DF03D7FF9E3BEC125A8D /* libPods-CCMPlayNDropViewSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCMPlayNDropViewSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7794C65E1A29544B00F9C300 /* CCMPlayNDropViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCMPlayNDropViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7794C6621A29544B00F9C300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,14 +45,12 @@
 		7794C6771A29544B00F9C300 /* CCMPlayNDropViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMPlayNDropViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7794C67C1A29544B00F9C300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7794C67D1A29544B00F9C300 /* CCMPlayNDropViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMPlayNDropViewSampleTests.m; sourceTree = "<group>"; };
-		7794C6881A29546800F9C300 /* CCMPlayNDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPlayNDropView.h; sourceTree = "<group>"; };
-		7794C6891A29546800F9C300 /* CCMPlayNDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPlayNDropView.m; sourceTree = "<group>"; };
-		7794C68C1A2A7A0500F9C300 /* CCMBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMBorderView.h; sourceTree = "<group>"; };
-		7794C68D1A2A7A0500F9C300 /* CCMBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMBorderView.m; sourceTree = "<group>"; };
 		7794C68F1A2A89AA00F9C300 /* PlayNDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayNDropViewController.h; sourceTree = "<group>"; };
 		7794C6901A2A89AA00F9C300 /* PlayNDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayNDropViewController.m; sourceTree = "<group>"; };
 		79F1905390736A1BF74A2B7B /* Pods-CCMPlayNDropViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMPlayNDropViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCMPlayNDropViewSample/Pods-CCMPlayNDropViewSample.release.xcconfig"; sourceTree = "<group>"; };
+		A9C13161BBF735C2914D736D /* libPods-CCMPlayNDropViewSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCMPlayNDropViewSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDA8D69535771FF3DB6F290 /* Pods-CCMPlayNDropViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMPlayNDropViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCMPlayNDropViewSample/Pods-CCMPlayNDropViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		D0EE710421F3F0624DAC4BD7 /* Pods-CCMPlayNDropViewSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMPlayNDropViewSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCMPlayNDropViewSampleTests/Pods-CCMPlayNDropViewSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6351C6C5E22AF8956E3320 /* libPods-CCMPlayNDropViewSampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +96,6 @@
 		7794C6601A29544B00F9C300 /* CCMPlayNDropViewSample */ = {
 			isa = PBXGroup;
 			children = (
-				7794C6871A29546800F9C300 /* CCMPlayNDropView */,
 				7794C6651A29544B00F9C300 /* AppDelegate.h */,
 				7794C6661A29544B00F9C300 /* AppDelegate.m */,
 				7794C68F1A2A89AA00F9C300 /* PlayNDropViewController.h */,
@@ -138,31 +136,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7794C6871A29546800F9C300 /* CCMPlayNDropView */ = {
-			isa = PBXGroup;
-			children = (
-				7794C68B1A2A79E600F9C300 /* CCMBorderView */,
-				7794C6881A29546800F9C300 /* CCMPlayNDropView.h */,
-				7794C6891A29546800F9C300 /* CCMPlayNDropView.m */,
-			);
-			name = CCMPlayNDropView;
-			path = ../../CCMPlayNDropView;
-			sourceTree = "<group>";
-		};
-		7794C68B1A2A79E600F9C300 /* CCMBorderView */ = {
-			isa = PBXGroup;
-			children = (
-				7794C68C1A2A7A0500F9C300 /* CCMBorderView.h */,
-				7794C68D1A2A7A0500F9C300 /* CCMBorderView.m */,
-			);
-			name = CCMBorderView;
-			path = CCMPlayNDropViewSample;
-			sourceTree = SOURCE_ROOT;
-		};
 		799A927326F63CA0A8B9EB52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5AC8DF03D7FF9E3BEC125A8D /* libPods-CCMPlayNDropViewSample.a */,
+				A9C13161BBF735C2914D736D /* libPods-CCMPlayNDropViewSampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +150,8 @@
 			children = (
 				ACDA8D69535771FF3DB6F290 /* Pods-CCMPlayNDropViewSample.debug.xcconfig */,
 				79F1905390736A1BF74A2B7B /* Pods-CCMPlayNDropViewSample.release.xcconfig */,
+				D0EE710421F3F0624DAC4BD7 /* Pods-CCMPlayNDropViewSampleTests.debug.xcconfig */,
+				2AF69E996F6F718E0099C9AD /* Pods-CCMPlayNDropViewSampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -183,11 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7794C6811A29544B00F9C300 /* Build configuration list for PBXNativeTarget "CCMPlayNDropViewSample" */;
 			buildPhases = (
-				630CB96CE618ADBAD85167C5 /* Check Pods Manifest.lock */,
+				630CB96CE618ADBAD85167C5 /* [CP] Check Pods Manifest.lock */,
 				7794C65A1A29544B00F9C300 /* Sources */,
 				7794C65B1A29544B00F9C300 /* Frameworks */,
 				7794C65C1A29544B00F9C300 /* Resources */,
-				5933C3D9335E47F58442D3CA /* Copy Pods Resources */,
+				5933C3D9335E47F58442D3CA /* [CP] Copy Pods Resources */,
+				E7194F1D656C783967199380 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7794C6841A29544B00F9C300 /* Build configuration list for PBXNativeTarget "CCMPlayNDropViewSampleTests" */;
 			buildPhases = (
+				6C8A2F847129F6EA0285C180 /* [CP] Check Pods Manifest.lock */,
 				7794C6731A29544B00F9C300 /* Sources */,
 				7794C6741A29544B00F9C300 /* Frameworks */,
 				7794C6751A29544B00F9C300 /* Resources */,
+				7665F361C89CE7E2EA6642CB /* [CP] Embed Pods Frameworks */,
+				84CEEDF3AE3C8A2FAC8E1C56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,34 +258,103 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5933C3D9335E47F58442D3CA /* Copy Pods Resources */ = {
+		5933C3D9335E47F58442D3CA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCMPlayNDropViewSample/Pods-CCMPlayNDropViewSample-resources.sh",
+				"${PODS_ROOT}/JPNavigationController/JPNavigationController/JPNavigationController.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMPlayNDropViewSample/Pods-CCMPlayNDropViewSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		630CB96CE618ADBAD85167C5 /* Check Pods Manifest.lock */ = {
+		630CB96CE618ADBAD85167C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCMPlayNDropViewSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8A2F847129F6EA0285C180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCMPlayNDropViewSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7665F361C89CE7E2EA6642CB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMPlayNDropViewSampleTests/Pods-CCMPlayNDropViewSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84CEEDF3AE3C8A2FAC8E1C56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMPlayNDropViewSampleTests/Pods-CCMPlayNDropViewSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7194F1D656C783967199380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCMPlayNDropViewSample/Pods-CCMPlayNDropViewSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -311,12 +364,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7794C68A1A29546800F9C300 /* CCMPlayNDropView.m in Sources */,
 				7794C66A1A29544B00F9C300 /* ViewController.m in Sources */,
 				7794C6911A2A89AA00F9C300 /* PlayNDropViewController.m in Sources */,
 				7794C6671A29544B00F9C300 /* AppDelegate.m in Sources */,
 				7794C6641A29544B00F9C300 /* main.m in Sources */,
-				7794C68E1A2A7A0500F9C300 /* CCMBorderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +511,7 @@
 		};
 		7794C6851A29544B00F9C300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EE710421F3F0624DAC4BD7 /* Pods-CCMPlayNDropViewSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -479,6 +531,7 @@
 		};
 		7794C6861A29544B00F9C300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF69E996F6F718E0099C9AD /* Pods-CCMPlayNDropViewSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
