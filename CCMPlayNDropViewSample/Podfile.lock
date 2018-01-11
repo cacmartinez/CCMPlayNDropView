@@ -1,0 +1,19 @@
+PODS:
+  - CCMPlayNDropView (1.0)
+  - MaryPopin (1.4.2)
+
+DEPENDENCIES:
+  - CCMPlayNDropView (from `../`)
+  - MaryPopin
+
+EXTERNAL SOURCES:
+  CCMPlayNDropView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CCMPlayNDropView: 2a8b7e854b56ea32a496fbe5dc8304ad11d3c96f
+  MaryPopin: 24affc7fab9608dcad88279e32e774e5de5d54ac
+
+PODFILE CHECKSUM: 3bb6c7a2e5a42298fb4949acac2a6fb366b1729c
+
+COCOAPODS: 1.3.1
